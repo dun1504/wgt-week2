@@ -362,3 +362,28 @@ p.address {
     line-height: 24px;
     text-align: center;
   }
+  /* inspiration  */
+.inspiration {
+    max-width: 1410px;
+    margin: auto;
+  }
+  .inspiration-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    gap: 82px;
+  }
+  .box-content h3 {
+    font-family: Lora;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 38px;
+    margin-top: 16px;
+    margin-bottom: 8px;
+  }
+  .box-content p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+  }
