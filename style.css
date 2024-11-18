@@ -289,3 +289,33 @@ p.address {
     overflow: hidden;
     visibility: visible;
   }
+  /* text carousel */
+.text-carousel {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 90px 0;
+  }
+  
+  .text-carousel p {
+    display: inline-block;
+    animation: scroll-right 15s linear infinite;
+    font-size: 1.5em;
+    font-weight: 400;
+    font-family: Lora;
+    font-size: 74px;
+    font-weight: 400;
+    line-height: 90px;
+    color: #00000099;
+  }
+  
+  @keyframes scroll-right {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(100%);
+    }
+  }
+  
