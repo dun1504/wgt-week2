@@ -254,3 +254,38 @@ p.address {
       "item1 item1 item2 item3"
       "item4 item5 item6 item6";
   }
+  .product-slider {
+    max-width: 1410px;
+    margin: auto;
+  }
+  /* .product_slider-main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  } */
+  .slider-img img {
+    width: 100%;
+    headers: auto;
+  }
+  .slider-head {
+    font-family: Lora;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: center;
+    padding: 50px 0;
+    margin: auto;
+    max-width: 630px;
+  }
+  /* .slider-img {
+    position: relative;
+  } */
+  .product-slider .splide__list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+  }
+  .product-slider .splide {
+    overflow: hidden;
+    visibility: visible;
+  }
