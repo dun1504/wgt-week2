@@ -433,3 +433,28 @@ p.new {
   line-height: 24px;
   text-align: center;
 }
+/* our service  */
+.our-service {
+    padding: 80px 0;
+    max-width: 1410px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+  }
+  .service-content h3 {
+    font-family: Lora;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 8px;
+  }
+  .service-content p {
+    font-family: Lora;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+  }
+  .service-icon {
+    margin-bottom: 24px;
+  }
